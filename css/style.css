@@ -1,0 +1,496 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+/*For top of the page*/
+body{
+    background-color:#DD403A;
+    width: 100vw;
+    
+}
+
+header{
+
+    position:fixed;
+    top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    height: 4em;
+    width: 100vw;
+    opacity: 95%;
+    z-index: 12;
+    
+    
+}
+div.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+nav{
+     padding-top: 08px; 
+}
+i.fa-bars{
+    position: absolute;
+    top: 0.8em;
+    right: 0.8em;
+    font-size: 1.5em;
+    color:rgb(47,71,105);
+    visibility: hidden;
+}
+ul{
+    
+    list-style: none;
+    
+    
+}
+li{
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 14px 14px;
+    text-align: center;
+
+}
+li a:hover{
+    /* border-bottom: 2px solid black; */
+    color: #DD403A;
+    
+}
+h1.name{
+    color: black;
+    display: inline-flex;
+    padding: 12px;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+/*For Main body*/
+div.home_top{
+   background-image: url('../image/pexels-rahul-716398.jpg');
+   background-color:rgb(47,71,105);
+   width: 100%; 
+   height: 100vh ;
+   background-repeat: no-repeat;
+   background-size: cover ;
+   background-attachment: fixed;
+   background-position: center center;
+    text-align: left;
+
+}
+div.home_top_section{
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    opacity: 100%;
+    line-height: 50px;
+}
+
+div h1{
+    color: wheat;
+    letter-spacing: 3%;
+    font-weight: 120em;
+
+}
+.name span{
+    color:#DD403A;
+}
+p.quote_author{
+    letter-spacing: 2%;
+    color: wheat;
+    padding: 6px;
+}
+.line_below_name{
+    border: 2px solid white;
+    line-height: 30;
+    width: 20%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 3px;
+    
+}
+button{
+    /* background-color:#DD403A; */
+    
+    height: 3em;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 0.5em;;
+} 
+a button{
+   text-decoration: none;
+   color: #DD403A;
+   font-size: 16px;
+   font-weight: 700;
+}
+a button:hover{
+    /* background-color: #DD403A; */
+    color: white;
+    border: 1px #DD403A solid;
+    /* font-weight: 900; */
+    /* letter-spacing: 1px; */
+    background-color: #DD403A;
+}
+
+
+
+
+
+
+/*About me portion*/
+
+div h2{
+    margin: 3em;
+    color:  white;
+    font-weight: 1000;
+    text-align: center;
+    
+    
+
+}
+span.text{
+    /* border-bottom: white 2px solid; */
+}
+.right_of_card{
+    text-align: left;
+    flex: 0.5;
+    padding: 8px 10px;
+    
+
+}
+p.paragraph{
+     margin-top: 5%;
+     font-style: italic;
+     font-size: 16px;
+}
+p strong{
+    font-weight: bold;
+    font-size: 15px;
+}
+.card{
+     background-color: white;
+     display: flex;
+    height: fit-content;
+    box-shadow: 0px 0px 48px -12px rgba(0,0,0,0.67);
+     width: 100%;
+     justify-content:center;
+     padding: 4px;
+     margin-bottom: 6em;
+      border-radius:1em; 
+     overflow: hidden;
+}
+#aboutme{
+    margin: 2% 10%;
+
+}
+
+img.author_pic{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+       
+
+}
+.left_of_card{
+    border-radius: 10% 0 10% 0;
+    flex: 0.5;
+    height: fit-content;
+}
+
+
+
+
+/*Project portion*/
+#projects{
+    
+    /* background-color:#0A2E36; */
+    background-image: ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 95%;
+}
+#projects h2{
+    padding-top: 4%;
+}
+
+.project_board{
+    
+   display: flex;
+   flex-wrap: wrap;
+   /* margin: 0% auto 2% auto; */
+}
+
+.project_card{
+    padding: 4%;
+    text-align: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    cursor: pointer;
+    margin-bottom: 8%;
+    background-color:white;
+    border-radius: 8%; 
+    
+}
+.project_card:hover{
+    box-shadow: 0px 0px 48px -12px rgba(0, 0, 0, 3.3);
+   
+}
+
+i.fa-product-hunt{
+    font-size: 50px;
+    padding: 5px;
+    border-bottom: black 1px solid;
+    color: #DD403A;
+    
+}
+
+.project_name h3{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 3px;
+    font-weight: bolder;
+    color: #DD403A;
+}
+img.project_image{
+    background-size: cover;
+}
+
+
+/*Form portion*/
+#business{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 9% 2% 0% 4% ;
+    justify-content: space-between;
+
+}
+div.form_container{
+    flex: 0.45;
+    background-color: white;
+   height: fit-content;
+   box-shadow: 0px 0px 48px -12px rgba(0,0,0,0.57);
+    width: 100%;
+    border-radius:1em; 
+    overflow: hidden;    
+}
+form{
+    margin: 5% 10% 2% 10%;
+    
+}
+
+#business h2{
+    margin-bottom: 2%;
+    color:#DD403A;
+    
+}
+
+input{
+    width: 100%;
+    height: 2.6em;
+    margin-bottom: 20px;
+    border: 2px solid;
+    border-radius: .1em;
+    
+}
+input:hover{
+    box-shadow: 0px 0px 48px -12px rgba(0,0,0,0.37);
+    cursor: pointer;
+}
+textarea{
+    border: 2px solid;
+    width: 100%;
+    margin-bottom: 20px;
+}
+textarea:hover{
+    box-shadow: 0px 0px 48px -12px rgba(0,0,0,0.37);
+    cursor: pointer;
+}
+
+input.Submit{
+    width: 10em;
+    height: 3em;
+    background-color:white;
+    border-radius: 5%;
+    color:#DD403A;
+}
+input.Submit:hover{
+    color: white;
+    background-color: #DD403A;
+}
+
+.testimonials_container{
+    flex: 0.45;
+    background-color: white;
+   height: fit-content;
+   box-shadow: 0px 0px 48px -12px rgba(0,0,0,0.57);
+    width: 100%;
+     border-radius:1em; 
+    overflow: hidden;    
+
+}
+.testimonials{
+    margin-top: 10%;
+    padding: 5em;
+    text-align: justify;
+}
+.fa-quote-right,.fa-quote-left{
+    color: #DD403A;
+    font-size: 30px;
+}
+.testimonials p{
+    font-size: 20px;
+}
+h4.writer_testimonials{
+    text-align: right;
+    font-size: bolder;
+}
+
+
+/*Contacts*/
+footer{
+    
+     
+}
+#contacts{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    /* flex-direction: column; */
+    box-shadow: 0px 0px 48px -12px rgba(0,0,0,0.67);
+    
+}
+h2.contacts{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    color: white;
+}
+i.fa-facebook{
+    font-size: 30px;
+    color:white;
+    margin-top: 2%;
+}
+
+i.fa-instagram{
+    font-size: 30px;
+    color: white;
+    margin-top: 2%;
+}
+i.fa-linkedin{
+    font-size: 30px;
+    color:white;
+    margin-top: 2%;
+}
+a.social_links{
+    text-decoration: none;
+    padding: 1%;
+    
+}
+div.ultimate h3{
+    margin-top: 1%;
+    color: white;
+    font-weight: 900;
+    padding-left: 8px;
+    letter-spacing: 4px;
+}
+
+div.ultimate{
+    padding: 5px;
+    text-align: left;
+
+}
+div.copy{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+div.ultimate{
+    text-align: center;
+    line-height: 2em;
+}
+hr{
+    margin:0 10%;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:800px){
+    
+    ul{
+        justify-content: center;
+    }
+    li{
+        display: inline;
+
+    }
+    li a{
+        text-decoration: none;
+        color: black;
+        display: block;
+        padding: 14px 14px;
+        text-align: center;
+    }
+
+    i.fa-bars{
+        position: absolute;
+        top: 0.8em;
+        right: 0.8em;
+        font-size: 1.5em;
+        color:rgb(47,71,105);
+        visibility: visible;
+    }
+    .change{
+
+    }
+    .card{
+        flex-direction: column;
+
+    }
+    .left_of_card{
+        flex: 1;
+    }
+    .right_of_card{
+        flex: 1;
+    }
+    #projects{
+        margin: 0%;
+        
+    }
+    .project_board{
+        margin:0 7% 0 10%;
+
+    }
+    form{
+        margin: 2% 5%;
+        margin-bottom: 35%;
+    }
+    div.ultimate{
+        text-align: center;
+        line-height: 4em;
+    }
+    div.form_container{
+        flex: 1;
+        margin-bottom: 5%;
+    }
+    .testimonials_container{
+        flex: 1;
+    }
+    #business{
+        flex-direction: column;
+    }
+}
